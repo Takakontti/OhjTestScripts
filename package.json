@@ -1,0 +1,24 @@
+{
+  "name": "ohjtestscripts",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Takakontti/OhjTestScripts#readme",
+  "bugs": {
+    "url": "https://github.com/Takakontti/OhjTestScripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takakontti/OhjTestScripts.git"
+  },
+  "license": "ISC",
+  "author": "Takakontti",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
